@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+
+  /* Core palette */
+  --ink: #0b0b0f;
+  --ink-soft: #15151a;
+  --ink-raised: #1d1d24;
+  --ink-line: #2a2a33;
+  --bone: #f6f3ec;
+  --paper: #fcfaf5;
+  --paper-deep: #f1ece1;
+  --coral: #ff5a36;
+  --coral-deep: #e84221;
+  --coral-soft: #ffd9cf;
+  --iris: #6c5ce7;
+  --iris-soft: #cdc7ff;
+  --lime: #c7f464;
+  --muted: #a6a6b2;
+  --muted-dark: #6f6f7c;
+
+  /* Editor surfaces */
+  --stage: #efeade;
+  --stage-line: #ded7c8;
+  --checker-a: #e5dfd2;
+  --checker-b: #f4f0e6;
+
+  /* Shape */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-pill: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.2, 0.9, 0.25, 1.08);
+  --dur-press: 120ms;
+  --dur-hover: 220ms;
+  --dur-panel: 420ms;
+  --dur-route: 560ms;
+
+  /* Shadows */
+  --shadow-card: 0 24px 80px -32px rgba(0, 0, 0, 0.75);
+  --shadow-lift: 0 30px 90px -30px rgba(0, 0, 0, 0.6);
+  --shadow-editor: 0 20px 60px -24px rgba(48, 40, 24, 0.35);
+
+  /* Fonts */
+  --font-display-stack: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
+  --font-sans-stack: "Manrope Variable", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --font-mono-stack: "JetBrains Mono Variable", ui-monospace, "SFMono-Regular",
+    monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-press: 0ms;
+    --dur-hover: 0ms;
+    --dur-panel: 0ms;
+    --dur-route: 0ms;
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <linearGradient id="wingL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9ffb0"/>
+      <stop offset="0.5" stop-color="#c7f464"/>
+      <stop offset="1" stop-color="#7fae2c"/>
+    </linearGradient>
+    <linearGradient id="wingR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7df3cc"/>
+      <stop offset="0.5" stop-color="#2ed3a0"/>
+      <stop offset="1" stop-color="#0d6b50"/>
+    </linearGradient>
+    <linearGradient id="keel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d6b50"/>
+      <stop offset="1" stop-color="#073b2c"/>
+    </linearGradient>
+  </defs>
+  <path d="M452 168 L158 648 L452 548 Z" fill="url(#wingL)"/>
+  <path d="M452 168 L746 648 L452 548 Z" fill="url(#wingR)"/>
+  <path d="M452 168 L512 604 L452 736 L392 604 Z" fill="url(#keel)"/>
+  <path d="M452 168 L452 548 L392 604 Z" fill="#ffffff" opacity="0.16"/>
+  <path d="M452 548 L746 648 L512 604 Z" fill="#0a5a44"/>
+  <path d="M452 168 L452 756" stroke="#06301f" stroke-width="3" opacity="0.35" fill="none"/>
+</svg>

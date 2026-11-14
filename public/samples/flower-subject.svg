@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" width="900" height="1000">
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc6ab"/>
+      <stop offset="0.45" stop-color="#ff8a5c"/>
+      <stop offset="1" stop-color="#ec4f28"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.38" cy="0.32" r="0.8">
+      <stop offset="0" stop-color="#f4ffc8"/>
+      <stop offset="0.55" stop-color="#c7f464"/>
+      <stop offset="1" stop-color="#7fae2c"/>
+    </radialGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2ed3a0"/>
+      <stop offset="1" stop-color="#0d6b50"/>
+    </linearGradient>
+  </defs>
+  <path d="M452 560 C 446 700 456 800 450 930" fill="none" stroke="url(#stem)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M452 706 C 372 676 306 704 276 774 C 366 806 428 776 452 706 Z" fill="url(#stem)" opacity="0.95"/>
+  <path d="M452 706 C 528 678 596 702 628 766 C 542 804 478 778 452 706 Z" fill="url(#stem)" opacity="0.75"/>
+  <g transform="translate(450 400)">
+    <g fill="url(#petal)">
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(60)"/>
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(240)"/>
+      <ellipse cx="0" cy="-176" rx="104" ry="170" transform="rotate(300)"/>
+    </g>
+    <g fill="#ffffff" opacity="0.12">
+      <ellipse cx="0" cy="-210" rx="44" ry="86" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-210" rx="44" ry="86" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-210" rx="44" ry="86" transform="rotate(240)"/>
+    </g>
+    <circle cx="0" cy="0" r="86" fill="url(#core)"/>
+    <g fill="#e8ff9a" opacity="0.9">
+      <circle cx="-30" cy="-22" r="9"/>
+      <circle cx="18" cy="-34" r="7"/>
+      <circle cx="34" cy="12" r="8"/>
+      <circle cx="-12" cy="28" r="6"/>
+      <circle cx="-40" cy="18" r="5"/>
+    </g>
+  </g>
+</svg>
